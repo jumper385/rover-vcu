@@ -1,0 +1,65 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+env:
+  PROJECT_NAME: rover-vcu
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Generated directory
+        run: mkdir -p Generated
+
+      - name: Run KiBot
+        uses: INTI-CMNB/KiBot@v2_k9
+        with:
+          config: kibot.yaml
+          dir: ./Generated
+
+      - name: List Generated Artifacts
+        run: ls -ltra ./Generated
+
+      - name: Bump version with Commitizen
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        id: cz
+        uses: commitizen-tools/commitizen-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          changelog_increment_filename: _changelog_body.md
+
+      - name: move to renamed folder
+        if: steps.cz.outputs.version != ''
+        run: mv ./Generated ./${{ env.PROJECT_NAME }}-${{ steps.cz.outputs.version }}
+
+      - name: Create release tarball
+        if: steps.cz.outputs.version != ''
+        run: tar -czf ${{ env.PROJECT_NAME }}_hw-release_v${{ steps.cz.outputs.version }}.tar.gz ${{ env.PROJECT_NAME }}-${{ steps.cz.outputs.version }}
+
+      - name: Upload Generated Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.cz.outputs.version != '' && format('{0}_v{1}', env.PROJECT_NAME, steps.cz.outputs.version) || format('{0}_run-{1}', env.PROJECT_NAME, github.run_number) }}
+          path: ${{ steps.cz.outputs.version != '' && format('{0}_v{1}.tar.gz', env.PROJECT_NAME, steps.cz.outputs.version) || './Generated' }}
+
+      - name: Create release
+        if: steps.cz.outputs.version != ''
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.cz.outputs.version }}
+          name: Release v${{ steps.cz.outputs.version }}
+          body_path: _changelog_body.md
+          files: ${{ env.PROJECT_NAME }}_hw-release_v${{ steps.cz.outputs.version }}.tar.gz
