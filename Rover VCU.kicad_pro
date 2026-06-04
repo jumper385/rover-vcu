@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -612,12 +612,12 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {},
-    "connection_grid_size": 100.0,
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 100.0,
+      "default_text_size": 50.0,
       "field_names": [],
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
@@ -652,7 +652,7 @@
         "uuid": "33c96268-4ca2-4a73-94d6-a3ed4f27d429"
       }
     ],
-    "used_designators": "#PWR4,U1-2",
+    "used_designators": "#PWR1,#PWR17-19,R1-2",
     "variants": []
   },
   "sheets": [
