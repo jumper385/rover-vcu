@@ -652,7 +652,7 @@
         "uuid": "33c96268-4ca2-4a73-94d6-a3ed4f27d429"
       }
     ],
-    "used_designators": "#PWR1,#PWR17-19,R1-2",
+    "used_designators": "D1,#PWR25-42,C11-23,XTAL1,SW2,Y1,U2-3",
     "variants": []
   },
   "sheets": [
@@ -663,6 +663,10 @@
     [
       "b6f6dc45-0fc2-47e8-a402-80b9d7932d21",
       "MCU"
+    ],
+    [
+      "a0f98a55-8e90-4373-9114-a4ee0fe31acf",
+      "PHY"
     ]
   ],
   "text_variables": {},
