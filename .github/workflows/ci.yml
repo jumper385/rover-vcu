@@ -65,4 +65,7 @@ jobs:
           tag_name: v${{ steps.cz.outputs.version }}
           name: Release v${{ steps.cz.outputs.version }}
           body_path: _changelog_body.md
-          files: ${{ env.PROJECT_NAME }}_hw-release_v${{ steps.cz.outputs.version }}.tar.gz
+          files: |
+            ${{ env.PROJECT_NAME }}_hw-release_v${{ steps.cz.outputs.version }}.tar.gz
+            ./${{ env.PROJECT_NAME }}-${{ steps.cz.outputs.version }}/Schematic/*.pdf
+            ./${{ env.PROJECT_NAME }}-${{ steps.cz.outputs.version }}/3D_Model/*.step
