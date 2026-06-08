@@ -1,3 +1,14 @@
+## 0.2.0 (2026-06-08)
+
+### Feat
+
+- added MVP routing implementation
+
+### Fix
+
+- centering board on layout
+- adjusted PNs for PSU systems
+
 ## 0.1.0 (2026-06-08)
 
 ### Feat
