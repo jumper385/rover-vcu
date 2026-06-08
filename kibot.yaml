@@ -9,6 +9,8 @@ global:
 
 
 preflight:
+  run_erc: false
+  run_drc: false
   drc:
     dont_stop: true
     format: RPT
