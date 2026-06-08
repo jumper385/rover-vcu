@@ -24,6 +24,9 @@ jobs:
       - name: Create Generated directory
         run: mkdir -p Generated
 
+      - name: Show Directory
+        run: ls -ltra
+
       - name: Run KiBot
         uses: INTI-CMNB/KiBot@v2_k9
         with:
