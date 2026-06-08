@@ -619,19 +619,19 @@
           "group_by": false,
           "label": "MFR_PN1",
           "name": "MFR_PN1",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MFR_PN2",
           "name": "MFR_PN2",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MFR_PN3",
           "name": "MFR_PN3",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -649,7 +649,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
