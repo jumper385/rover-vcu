@@ -602,12 +602,66 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLC_PN",
+          "name": "JLC_PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Loading Capacitance",
+          "name": "Loading Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR_PN1",
+          "name": "MFR_PN1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR_PN2",
+          "name": "MFR_PN2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR_PN3",
+          "name": "MFR_PN3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating",
+          "name": "Voltage Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric Type",
+          "name": "Dielectric Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -652,7 +706,7 @@
         "uuid": "33c96268-4ca2-4a73-94d6-a3ed4f27d429"
       }
     ],
-    "used_designators": "D1,#PWR25-42,C11-23,XTAL1,SW2,Y1,U2-3",
+    "used_designators": "J3,R3-9,D1-2,FL1,#PWR31,#PWR43-62,C24-37,XTAL2,U4-5,Y2",
     "variants": []
   },
   "sheets": [
@@ -667,6 +721,14 @@
     [
       "a0f98a55-8e90-4373-9114-a4ee0fe31acf",
       "PHY"
+    ],
+    [
+      "cbe7f1f7-be81-4288-926d-1d0a7b695cd8",
+      "CAN1"
+    ],
+    [
+      "49ddb0fd-441a-42bf-83b6-c17defafd145",
+      "CAN2"
     ]
   ],
   "text_variables": {},

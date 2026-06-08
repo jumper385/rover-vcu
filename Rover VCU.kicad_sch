@@ -5,9 +5,155 @@
 	(uuid "33c96268-4ca2-4a73-94d6-a3ed4f27d429")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 151.13 86.36) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bedcbaf-4d26-42c6-a921-d96aa893a86d")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 162.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e62e3d-97be-4485-94c2-9149714aafca")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.9) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51a0d11-ef9c-4a88-afa4-12df2996debd")
+	)
+	(wire
+		(pts
+			(xy 151.13 109.22) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea36dc16-bd91-41d0-98b9-084126523f37")
+	)
 	(sheet
-		(at 165.1 76.2)
-		(size 25.4 25.4)
+		(at 162.56 101.6)
+		(size 29.21 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "49ddb0fd-441a-42bf-83b6-c17defafd145")
+		(property "Sheetname" "CAN2"
+			(at 162.56 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sn63hvd230.kicad_sch"
+			(at 162.56 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" input
+			(at 191.77 111.76 0)
+			(uuid "3890c8d1-b425-4ed8-9abe-40ae679d93e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_L" input
+			(at 191.77 109.22 0)
+			(uuid "28f58e39-f79b-4b89-aacd-b878f5183528")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 162.56 111.76 180)
+			(uuid "e426e52f-310c-4628-837c-8392630a9c20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 162.56 109.22 180)
+			(uuid "2c026107-9ab0-4867-8f9b-bdfd5aacaae7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 162.56 116.84 180)
+			(uuid "2cfad30f-26b2-4a6f-b322-d61b630a134c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_3V3" input
+			(at 162.56 104.14 180)
+			(uuid "dae32f71-4ab4-49fe-a76a-2e05b989d066")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 78.74)
+		(size 25.4 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +168,7 @@
 		)
 		(uuid "a0f98a55-8e90-4373-9114-a4ee0fe31acf")
 		(property "Sheetname" "PHY"
-			(at 165.1 75.4884 0)
+			(at 87.63 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +179,7 @@
 			)
 		)
 		(property "Sheetfile" "eth_phy.kicad_sch"
-			(at 165.1 102.1846 0)
+			(at 87.63 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +187,126 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 113.03 116.84 0)
+			(uuid "73ac138a-149b-4429-8dba-7ce8ff96ab49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" input
+			(at 113.03 109.22 0)
+			(uuid "ab94896e-e44c-45d5-8ada-a0054daefb6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_CRS_DV" input
+			(at 113.03 86.36 0)
+			(uuid "9e1c92d0-c6c0-4a52-ac4f-ed734a477e42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_MDC" input
+			(at 113.03 101.6 0)
+			(uuid "d6333e26-0266-441e-baf6-43aa9d22a068")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_MDIO" input
+			(at 113.03 88.9 0)
+			(uuid "1ef65ebf-5fed-43d3-8b34-4b6042fd7806")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_REF_CLK" input
+			(at 113.03 99.06 0)
+			(uuid "1917f560-89c8-48c9-bd00-97ca4d381cde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_RXD0" input
+			(at 113.03 106.68 0)
+			(uuid "a2b3486f-8b62-411d-84e8-ec40c1cece5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_RXD1" input
+			(at 113.03 104.14 0)
+			(uuid "2c0599a0-c1d2-4055-a6f5-2c902bc041a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_TXD0" input
+			(at 113.03 93.98 0)
+			(uuid "26b31662-c12f-4efc-b53e-8617c3973591")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_TXD1" input
+			(at 113.03 96.52 0)
+			(uuid "2705ae2b-cd48-41c2-a3a6-13323509f63d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_TX_EN" input
+			(at 113.03 91.44 0)
+			(uuid "ee39dd17-c11e-49ef-ac36-2d5bd11852ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_3V3" input
+			(at 113.03 81.28 0)
+			(uuid "45f9406a-7bac-4849-a4c4-91359bf113a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -52,8 +318,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 76.2)
-		(size 26.67 45.72)
+		(at 124.46 76.2)
+		(size 26.67 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +334,7 @@
 		)
 		(uuid "b6f6dc45-0fc2-47e8-a402-80b9d7932d21")
 		(property "Sheetname" "MCU"
-			(at 128.27 75.4884 0)
+			(at 124.46 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +345,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32G0B1.kicad_sch"
-			(at 128.27 122.5046 0)
+			(at 124.46 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -90,7 +356,7 @@
 			)
 		)
 		(pin "VDD_3V3" input
-			(at 128.27 78.74 180)
+			(at 124.46 81.28 180)
 			(uuid "7a952280-129a-4d26-82c3-b4b068ad8f7d")
 			(effects
 				(font
@@ -100,7 +366,7 @@
 			)
 		)
 		(pin "VBUS" input
-			(at 128.27 81.28 180)
+			(at 124.46 78.74 180)
 			(uuid "58b0c106-50a6-4be2-ba30-b3110c051e64")
 			(effects
 				(font
@@ -110,17 +376,17 @@
 			)
 		)
 		(pin "RMII_CRS_DV" input
-			(at 154.94 78.74 0)
+			(at 124.46 86.36 180)
 			(uuid "ab5168bf-2560-4eff-a5b1-95b925889434")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GND" input
-			(at 128.27 119.38 180)
+			(at 124.46 116.84 180)
 			(uuid "97de19c3-0cf3-4b3d-abe5-7dd4a045f82a")
 			(effects
 				(font
@@ -130,57 +396,57 @@
 			)
 		)
 		(pin "RMII_MDIO" input
-			(at 154.94 81.28 0)
+			(at 124.46 88.9 180)
 			(uuid "e4202d3f-ac3c-4e1d-bbb3-58c05a783642")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "RMII_TX_EN" input
-			(at 154.94 83.82 0)
+			(at 124.46 91.44 180)
 			(uuid "87109c29-b743-4859-a872-cabe12db638b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "RMII_TXD0" input
-			(at 154.94 86.36 0)
+			(at 124.46 93.98 180)
 			(uuid "a67317d3-537e-4e57-86e6-033d15eadcc0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "RMII_TXD1" input
-			(at 154.94 88.9 0)
+			(at 124.46 96.52 180)
 			(uuid "5802559e-32bf-469b-be64-f32fa18317e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "RMII_REF_CLK" input
-			(at 154.94 91.44 0)
+			(at 124.46 99.06 180)
 			(uuid "f9297099-6fd9-4104-893b-b3d5f1d1c147")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "CAN2_TX" input
-			(at 154.94 119.38 0)
+			(at 151.13 111.76 0)
 			(uuid "6c5e8be1-6cec-49a5-86f2-998c4b1726fa")
 			(effects
 				(font
@@ -190,37 +456,37 @@
 			)
 		)
 		(pin "RMII_MDC" input
-			(at 154.94 93.98 0)
+			(at 124.46 101.6 180)
 			(uuid "0fedb17b-6a4e-4a5a-9f48-be5502c3c249")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "RMII_RXD1" input
-			(at 154.94 96.52 0)
+			(at 124.46 104.14 180)
 			(uuid "ba178a3a-aa8d-4acb-a313-f58f316cce06")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "RMII_RXD0" input
-			(at 154.94 99.06 0)
+			(at 124.46 106.68 180)
 			(uuid "af1fa3f1-d84c-4d7a-9b52-e5359f63648a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "CAN1_TX" input
-			(at 154.94 109.22 0)
+			(at 151.13 86.36 0)
 			(uuid "cc443f21-42c0-451e-bc5f-1bbd2dbcb087")
 			(effects
 				(font
@@ -230,7 +496,7 @@
 			)
 		)
 		(pin "CAN1_RX" input
-			(at 154.94 111.76 0)
+			(at 151.13 88.9 0)
 			(uuid "364d28b2-bf44-46a2-81c1-88d850d7daee")
 			(effects
 				(font
@@ -240,7 +506,7 @@
 			)
 		)
 		(pin "CAN2_RX" input
-			(at 154.94 116.84 0)
+			(at 151.13 109.22 0)
 			(uuid "810f6dee-79b3-4ad8-b395-edd5083a3cbf")
 			(effects
 				(font
@@ -249,10 +515,126 @@
 				(justify right)
 			)
 		)
+		(pin "NRST" input
+			(at 124.46 109.22 180)
+			(uuid "efd62891-8c7f-4357-b05b-032605adb35f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 78.74)
+		(size 29.21 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cbe7f1f7-be81-4288-926d-1d0a7b695cd8")
+		(property "Sheetname" "CAN1"
+			(at 162.56 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sn63hvd230.kicad_sch"
+			(at 162.56 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" input
+			(at 191.77 88.9 0)
+			(uuid "e1ffe5c7-f254-42b9-930b-dff76cee4e86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_L" input
+			(at 191.77 86.36 0)
+			(uuid "04fe7099-c476-4648-b8e1-8ee807ea1e4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 162.56 88.9 180)
+			(uuid "f428fc0b-cac4-49de-9a06-601a1ea763fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 162.56 86.36 180)
+			(uuid "1c9b0d27-f4c6-45fb-9a2b-ceac94b488aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 162.56 93.98 180)
+			(uuid "353a7195-5021-4822-9f8f-dba5fc369df4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_3V3" input
+			(at 162.56 81.28 180)
+			(uuid "43b37432-72ed-4987-815e-0268ae512716")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
+					(page "4")
 				)
 			)
 		)
