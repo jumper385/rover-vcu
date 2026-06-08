@@ -9693,7 +9693,7 @@
 	)
 	(symbol
 		(lib_id "0_chenry_lib:VDD_3V3")
-		(at 27.94 64.77 90)
+		(at 31.75 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -9704,7 +9704,7 @@
 		(fields_autoplaced yes)
 		(uuid "43abf9de-a7b5-4401-8eb6-b455c893d25e")
 		(property "Reference" "#PWR040"
-			(at 31.75 64.77 0)
+			(at 35.56 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,7 +9715,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 24.13 64.7699 90)
+			(at 27.94 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9726,7 +9726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 64.77 0)
+			(at 31.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9737,7 +9737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 64.77 0)
+			(at 31.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9748,7 +9748,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 27.94 64.77 0)
+			(at 31.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9759,7 +9759,7 @@
 			)
 		)
 		(property "JLC_PN" ""
-			(at 27.94 64.77 0)
+			(at 31.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9770,7 +9770,7 @@
 			)
 		)
 		(property "MFR_PN1" ""
-			(at 27.94 64.77 0)
+			(at 31.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9781,7 +9781,7 @@
 			)
 		)
 		(property "MFR_PN2" ""
-			(at 27.94 64.77 0)
+			(at 31.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,7 +9792,7 @@
 			)
 		)
 		(property "MFR_PN3" ""
-			(at 27.94 64.77 0)
+			(at 31.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11743,7 +11743,7 @@
 	)
 	(symbol
 		(lib_id "0_chenry_lib:VDD_3V3")
-		(at 27.94 59.69 90)
+		(at 31.75 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -11754,7 +11754,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc607c70-364d-47b5-ab22-050f3e9cafaa")
 		(property "Reference" "#PWR036"
-			(at 31.75 59.69 0)
+			(at 35.56 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11765,7 +11765,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 24.13 59.6899 90)
+			(at 27.94 59.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11776,7 +11776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 59.69 0)
+			(at 31.75 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11787,7 +11787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 59.69 0)
+			(at 31.75 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11798,7 +11798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 27.94 59.69 0)
+			(at 31.75 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11809,7 +11809,7 @@
 			)
 		)
 		(property "JLC_PN" ""
-			(at 27.94 59.69 0)
+			(at 31.75 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11820,7 +11820,7 @@
 			)
 		)
 		(property "MFR_PN1" ""
-			(at 27.94 59.69 0)
+			(at 31.75 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11831,7 +11831,7 @@
 			)
 		)
 		(property "MFR_PN2" ""
-			(at 27.94 59.69 0)
+			(at 31.75 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11842,7 +11842,7 @@
 			)
 		)
 		(property "MFR_PN3" ""
-			(at 27.94 59.69 0)
+			(at 31.75 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12194,7 +12194,7 @@
 	)
 	(symbol
 		(lib_id "0_chenry_lib:VDD_3V3")
-		(at 27.94 62.23 90)
+		(at 31.75 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -12205,7 +12205,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0e36dbf-8a04-48c1-a5a9-1bfcc03af6e7")
 		(property "Reference" "#PWR037"
-			(at 31.75 62.23 0)
+			(at 35.56 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12216,7 +12216,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 24.13 62.2299 90)
+			(at 27.94 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12227,7 +12227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12238,7 +12238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12249,7 +12249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 27.94 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12260,7 +12260,7 @@
 			)
 		)
 		(property "JLC_PN" ""
-			(at 27.94 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12271,7 +12271,7 @@
 			)
 		)
 		(property "MFR_PN1" ""
-			(at 27.94 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12282,7 +12282,7 @@
 			)
 		)
 		(property "MFR_PN2" ""
-			(at 27.94 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12293,7 +12293,7 @@
 			)
 		)
 		(property "MFR_PN3" ""
-			(at 27.94 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12646,7 +12646,7 @@
 	)
 	(symbol
 		(lib_id "0_chenry_lib:VDD_3V3")
-		(at 27.94 67.31 90)
+		(at 31.75 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -12657,7 +12657,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3572ef0-c704-4a11-9db9-8ab2e90feacc")
 		(property "Reference" "#PWR042"
-			(at 31.75 67.31 0)
+			(at 35.56 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12668,7 +12668,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 24.13 67.3099 90)
+			(at 27.94 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12679,7 +12679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12690,7 +12690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12701,7 +12701,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 27.94 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12712,7 +12712,7 @@
 			)
 		)
 		(property "JLC_PN" ""
-			(at 27.94 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12723,7 +12723,7 @@
 			)
 		)
 		(property "MFR_PN1" ""
-			(at 27.94 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12734,7 +12734,7 @@
 			)
 		)
 		(property "MFR_PN2" ""
-			(at 27.94 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12745,7 +12745,7 @@
 			)
 		)
 		(property "MFR_PN3" ""
-			(at 27.94 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -125046,12 +125046,6 @@
 		(uuid "45801bac-9629-4e1a-a51a-888afe3339c7")
 	)
 	(junction
-		(at 46.99 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "643aeb22-6afb-4925-89d7-b4ebcb6269b0")
-	)
-	(junction
 		(at 127 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -125323,16 +125317,6 @@
 		)
 		(uuid "4b2ccfea-de74-4dac-95af-0e090c77ea42")
 	)
-	(wire
-		(pts
-			(xy 46.99 107.95) (xy 46.99 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b30a506-676e-4797-a2e3-316ae33877fc")
-	)
 	(polyline
 		(pts
 			(xy 149.86 26.67) (xy 151.13 25.4)
@@ -125555,7 +125539,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 104.14) (xy 46.99 107.95)
+			(xy 46.99 104.14) (xy 46.99 111.76)
 		)
 		(stroke
 			(width 0)
@@ -128017,85 +128001,6 @@
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 46.99 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0b2a0ce-592c-4b4f-851f-0b578fae53c4")
-		(property "Reference" "#FLG5"
-			(at 45.085 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 43.18 107.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 46.99 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0e2cc5d-f002-4d8a-ae2a-fff55d2021cc")
-		)
-		(instances
-			(project "Rover VCU"
-				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#FLG5")
 					(unit 1)
 				)
 			)
