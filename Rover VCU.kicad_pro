@@ -706,7 +706,7 @@
         "uuid": "33c96268-4ca2-4a73-94d6-a3ed4f27d429"
       }
     ],
-    "used_designators": "J3,R3-9,D1-2,FL1,#PWR31,#PWR43-62,C24-37,XTAL2,U4-5,Y2",
+    "used_designators": "L1,J3,R3-11,D1-3,FL1,#PWR31,#PWR43-91,C24-45,XTAL2,U4-8,Y2",
     "variants": []
   },
   "sheets": [
@@ -729,6 +729,10 @@
     [
       "49ddb0fd-441a-42bf-83b6-c17defafd145",
       "CAN2"
+    ],
+    [
+      "1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7",
+      "PSU"
     ]
   ],
   "text_variables": {},
