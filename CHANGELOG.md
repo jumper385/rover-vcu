@@ -1,3 +1,10 @@
+## 0.2.1 (2026-06-11)
+
+### Fix
+
+- adde more changes from excel checklist for eth phy
+- cleaned up DRC and ERC's for major errors
+
 ## 0.2.0 (2026-06-08)
 
 ### Feat
