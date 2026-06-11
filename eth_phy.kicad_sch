@@ -1527,6 +1527,175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0_chenry_lib:C_0402_4N7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7uF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "chenry-footprint-lib:C_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4.7nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN1" "0402B472K500NT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC_PN" "C1538"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric Type" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0402_4N7_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0402_4N7_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0_chenry_lib:DP83TC812RRHARQ1"
 			(pin_names
 				(offset 0.254)
@@ -2429,7 +2598,7 @@
 				)
 			)
 		)
-		(symbol "0_chenry_lib:R_0402_10K"
+		(symbol "0_chenry_lib:R_0402_100"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2445,7 +2614,7 @@
 					)
 				)
 			)
-			(property "Value" "10K"
+			(property "Value" "100R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2477,7 +2646,7 @@
 					)
 				)
 			)
-			(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "-55℃~+155℃ 100Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2488,7 +2657,7 @@
 					)
 				)
 			)
-			(property "JLC_PN" "C25744"
+			(property "JLC_PN" "C25076"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2532,7 +2701,7 @@
 					)
 				)
 			)
-			(symbol "R_0402_10K_0_1"
+			(symbol "R_0402_100_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -2545,7 +2714,475 @@
 					)
 				)
 			)
-			(symbol "R_0402_10K_1_1"
+			(symbol "R_0402_100_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0_chenry_lib:R_0402_100K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "chenry-footprint-lib:R_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC_PN" "C25741"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN1" "0402WGF1003TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN2" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0402_100K_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0402_100K_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0_chenry_lib:R_0402_1K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "chenry-footprint-lib:R_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC_PN" "C11702"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN2" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0402_1K_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0402_1K_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0_chenry_lib:R_0402_2K2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2K2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "chenry-footprint-lib:R_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 2.2kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC_PN" "C25879"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN2" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0402_2K2_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0402_2K2_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -7999,6 +8636,46 @@
 		)
 		(uuid "87a6938c-862f-406f-b354-2da6ecdec34d")
 	)
+	(text_box "\"Open Drain output, asserted HIGH when the PHY is in operational mode. This pin is released by the PHY when in TC10 sleep and pulled low via external 10kΩ resistor. Connect INH to enable pin of voltage regulator/PMIC which enables VDDIO/VDDMAC/VDDA supplies.\n\nIf TC10 mode is used, INH must have a pull-down of 10kΩ.  If TC10 is not used, this pin can be left floating\""
+		(exclude_from_sim no)
+		(at 96.52 139.7 0)
+		(size 40.64 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a6c06ed3-194b-4c96-ac30-a6b47f07b92c")
+	)
+	(text_box "\"For TC10 operation, external 10kohm pull down should be used and WAKE pin should be connected to MAC.\nIf sleep mode of phy is not used, this pin should be connected to VSLEEP\""
+		(exclude_from_sim no)
+		(at 96.52 121.92 0)
+		(size 40.64 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c326654a-a03d-4137-8eba-9c4d11ab2513")
+	)
 	(junction
 		(at 220.98 153.67)
 		(diameter 0)
@@ -8024,10 +8701,22 @@
 		(uuid "3913411b-d0f3-466e-aee9-4d69277acef3")
 	)
 	(junction
+		(at 171.45 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a7cfa12-82d7-42f0-94da-f17d31998466")
+	)
+	(junction
 		(at 137.16 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "518319f5-459b-46c6-aabb-2f24bbe485f1")
+	)
+	(junction
+		(at 175.26 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5db63346-3eaa-460e-9ce1-7342f390376f")
 	)
 	(junction
 		(at 177.8 146.05)
@@ -8046,6 +8735,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d9f5348-7676-4eea-a40f-9197b6679662")
+	)
+	(junction
+		(at 165.1 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e50f7e4-f8e2-4f42-93e6-144d308e73d9")
 	)
 	(junction
 		(at 68.58 77.47)
@@ -8096,10 +8791,22 @@
 		(uuid "b8ee4c05-52eb-4e5d-81ee-ce1f81e914ac")
 	)
 	(junction
+		(at 256.54 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b920ed1d-1227-4b68-9a52-f37d0d81caa9")
+	)
+	(junction
 		(at 93.98 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c419b8bd-cb50-49e6-98b7-eb6997a61e8a")
+	)
+	(junction
+		(at 262.89 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c71a6600-a734-4652-9b96-c6d701d1bc2d")
 	)
 	(junction
 		(at 177.8 148.59)
@@ -8108,10 +8815,22 @@
 		(uuid "d0075e84-1d37-4d6e-a815-5eb4e0b1f4d6")
 	)
 	(junction
+		(at 269.24 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d21698a4-527f-427c-9084-de8fcc0b45f4")
+	)
+	(junction
 		(at 74.93 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3e29fd2-42d2-4e1a-ab76-87096d7457a8")
+	)
+	(junction
+		(at 269.24 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d88b2815-d51b-48e4-9d4e-0275f20354e9")
 	)
 	(junction
 		(at 87.63 64.77)
@@ -8126,10 +8845,10 @@
 		(uuid "eb0be348-229e-4194-a14b-0140e6e9fbb5")
 	)
 	(junction
-		(at 167.64 82.55)
+		(at 256.54 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f770b93f-3898-4e9d-b600-0d59be84d51f")
+		(uuid "ef7d32ba-eca6-40cb-9aa5-b19f93aa37a0")
 	)
 	(no_connect
 		(at 180.34 74.93)
@@ -8156,14 +8875,6 @@
 		(uuid "7b0243fd-efd8-40b1-affb-1e1a842b218a")
 	)
 	(no_connect
-		(at 180.34 128.27)
-		(uuid "7f1aa11f-2537-4d8f-99ff-0cdbeebe7fea")
-	)
-	(no_connect
-		(at 180.34 125.73)
-		(uuid "800976ff-9b1b-446a-bffd-e76c37512b20")
-	)
-	(no_connect
 		(at 180.34 135.89)
 		(uuid "8d1a21eb-2057-41ca-9eaa-44ebfeec5914")
 	)
@@ -8179,6 +8890,10 @@
 		(at 180.34 100.33)
 		(uuid "cb789111-e629-4570-92bb-ef879a3e4671")
 	)
+	(no_connect
+		(at 180.34 125.73)
+		(uuid "cbbf4720-b546-4644-a9a9-0e61fe04788b")
+	)
 	(wire
 		(pts
 			(xy 93.98 77.47) (xy 100.33 77.47)
@@ -8188,6 +8903,16 @@
 			(type default)
 		)
 		(uuid "00187f4a-d8d5-43ca-8021-e63a004c39f3")
+	)
+	(wire
+		(pts
+			(xy 214.63 105.41) (xy 224.79 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018b586b-e934-417c-a605-c091fb55ffdc")
 	)
 	(wire
 		(pts
@@ -8211,6 +8936,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 72.39) (xy 180.34 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0072b7-e644-4219-ac0a-abb228c5f0aa")
+	)
+	(wire
+		(pts
 			(xy 124.46 77.47) (xy 137.16 77.47)
 		)
 		(stroke
@@ -8228,6 +8963,16 @@
 			(type default)
 		)
 		(uuid "177cd46e-cab8-41f8-b8ec-ba26d2af0f76")
+	)
+	(wire
+		(pts
+			(xy 256.54 80.01) (xy 256.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17adce98-2330-4db7-9e4d-50fb7698530c")
 	)
 	(wire
 		(pts
@@ -8301,6 +9046,26 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 82.55) (xy 180.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258ab2a4-d196-424f-8c59-bdfab7f30a5f")
+	)
+	(wire
+		(pts
+			(xy 165.1 151.13) (xy 165.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2924b144-1a5a-4488-9fb0-feb759541aea")
+	)
+	(wire
+		(pts
 			(xy 177.8 148.59) (xy 177.8 146.05)
 		)
 		(stroke
@@ -8311,7 +9076,17 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 105.41) (xy 224.79 105.41)
+			(xy 269.24 59.69) (xy 269.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa38d7e-70cf-4a2a-8b26-ea806a5ae6a4")
+	)
+	(wire
+		(pts
+			(xy 205.74 105.41) (xy 207.01 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8321,7 +9096,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 64.77) (xy 180.34 64.77)
+			(xy 100.33 64.77) (xy 175.26 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8338,16 +9113,6 @@
 			(type default)
 		)
 		(uuid "374ca893-b1b7-4e8f-a635-186db11d7154")
-	)
-	(wire
-		(pts
-			(xy 167.64 82.55) (xy 180.34 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "379e8a03-ee60-48bc-a882-8aa770e4565e")
 	)
 	(wire
 		(pts
@@ -8368,6 +9133,26 @@
 			(type default)
 		)
 		(uuid "3861d664-8bce-4cfa-99d1-6b2a5d3b259d")
+	)
+	(wire
+		(pts
+			(xy 256.54 64.77) (xy 256.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2229ce-b003-42ea-839f-a559ad087e79")
+	)
+	(wire
+		(pts
+			(xy 269.24 59.69) (xy 275.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d7f249-edfb-466e-8758-f8c4402e3304")
 	)
 	(wire
 		(pts
@@ -8441,7 +9226,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 97.79) (xy 224.79 97.79)
+			(xy 205.74 97.79) (xy 207.01 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8458,6 +9243,36 @@
 			(type default)
 		)
 		(uuid "513d6fda-35c2-4fa2-a320-690183427b1e")
+	)
+	(wire
+		(pts
+			(xy 214.63 97.79) (xy 224.79 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51738015-f38d-4b6b-a223-d20b51bc2501")
+	)
+	(wire
+		(pts
+			(xy 256.54 102.87) (xy 256.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e4dc95-eacf-4c30-979b-7b7462cc25d5")
+	)
+	(wire
+		(pts
+			(xy 175.26 64.77) (xy 180.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5309b3bf-eac4-4e53-9c5d-ffd8ff30812b")
 	)
 	(wire
 		(pts
@@ -8488,6 +9303,16 @@
 			(type default)
 		)
 		(uuid "653dd717-93db-43bf-866a-0e373ccd627c")
+	)
+	(wire
+		(pts
+			(xy 256.54 86.36) (xy 256.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6892e68c-1d03-4b04-903b-63a2c345494c")
 	)
 	(wire
 		(pts
@@ -8538,6 +9363,26 @@
 			(type default)
 		)
 		(uuid "6f9881b9-5f63-4e3c-a9b7-a6e7148690ef")
+	)
+	(wire
+		(pts
+			(xy 175.26 64.77) (xy 175.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9d143f-387a-4812-8911-a78ec97fc6f5")
+	)
+	(wire
+		(pts
+			(xy 262.89 102.87) (xy 256.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa0d0a7-98b7-4be4-8146-815d8ba37158")
 	)
 	(wire
 		(pts
@@ -8601,7 +9446,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 64.77) (xy 262.89 64.77)
+			(xy 248.92 64.77) (xy 256.54 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8631,6 +9476,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 97.79) (xy 269.24 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922a36eb-2ed3-4f04-81ea-a7bff5e17df3")
+	)
+	(wire
+		(pts
 			(xy 177.8 146.05) (xy 177.8 143.51)
 		)
 		(stroke
@@ -8638,6 +9493,26 @@
 			(type default)
 		)
 		(uuid "97143bbe-e2f9-4931-8c8d-d6cf78d62e9e")
+	)
+	(wire
+		(pts
+			(xy 165.1 72.39) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0121a0-7f6b-42bd-8aa9-80b639567b65")
+	)
+	(wire
+		(pts
+			(xy 269.24 102.87) (xy 262.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2390103-0bbd-4d79-b714-9eb39ed43091")
 	)
 	(wire
 		(pts
@@ -8661,13 +9536,33 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 54.61) (xy 167.64 82.55)
+			(xy 165.1 54.61) (xy 165.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6010c64-80d1-4b44-952e-b5c6dfb45107")
+	)
+	(wire
+		(pts
+			(xy 171.45 54.61) (xy 171.45 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a7e02cb9-fddb-433f-b8e5-de05da20c5a7")
+	)
+	(wire
+		(pts
+			(xy 180.34 128.27) (xy 175.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a955bc70-ae08-4719-af76-ea0f4c4f75e6")
 	)
 	(wire
 		(pts
@@ -8701,6 +9596,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 102.87) (xy 262.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b575b6fd-33f8-4907-90bc-c77e4f28c794")
+	)
+	(wire
+		(pts
+			(xy 269.24 86.36) (xy 269.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5dec934-0dc1-41e8-b54c-ef4570233363")
+	)
+	(wire
+		(pts
 			(xy 241.3 101.6) (xy 241.3 105.41)
 		)
 		(stroke
@@ -8711,7 +9626,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 82.55) (xy 167.64 82.55)
+			(xy 158.75 82.55) (xy 171.45 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8751,13 +9666,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 72.39) (xy 180.34 72.39)
+			(xy 158.75 72.39) (xy 165.1 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1d50a51-094f-49d2-98fd-789daf9fdbc9")
+	)
+	(wire
+		(pts
+			(xy 256.54 64.77) (xy 275.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c398ec74-1d82-4b38-a047-e20dfacc177f")
 	)
 	(wire
 		(pts
@@ -8771,6 +9696,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 86.36) (xy 269.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78a2333-8943-4225-b809-d0c4a2863fc1")
+	)
+	(wire
+		(pts
 			(xy 31.75 67.31) (xy 113.03 67.31)
 		)
 		(stroke
@@ -8781,7 +9716,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 59.69) (xy 262.89 59.69)
+			(xy 248.92 59.69) (xy 269.24 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8848,6 +9783,16 @@
 			(type default)
 		)
 		(uuid "d73acd37-312d-4d70-95da-d0359b616c8a")
+	)
+	(wire
+		(pts
+			(xy 256.54 86.36) (xy 269.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8be8f77-94c8-4b68-a685-d694eea024b6")
 	)
 	(wire
 		(pts
@@ -8987,7 +9932,7 @@
 	)
 	(hierarchical_label "TRD_N"
 		(shape input)
-		(at 262.89 64.77 0)
+		(at 275.59 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8998,7 +9943,7 @@
 	)
 	(hierarchical_label "TRD_P"
 		(shape input)
-		(at 262.89 59.69 0)
+		(at 275.59 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9072,6 +10017,132 @@
 			(justify right)
 		)
 		(uuid "f4035ead-4b82-46a3-beaa-56877987e908")
+	)
+	(symbol
+		(lib_id "0_chenry_lib:R_0402_2K2")
+		(at 171.45 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "036028ea-8b66-459f-94f1-5037b2432eaf")
+		(property "Reference" "R5"
+			(at 173.99 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K2"
+			(at 173.99 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "chenry-footprint-lib:R_0402"
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 2.2kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" "C25879"
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1217f151-80bd-45e5-a7cb-cbd7aa005030")
+		)
+		(pin "1"
+			(uuid "00cbf526-eb32-436f-8eaf-331634e6575d")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "0_chenry_lib:C_0402_1U")
@@ -9223,13 +10294,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 26.67 0)
+			(at 35.56 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9410,6 +10482,132 @@
 		)
 	)
 	(symbol
+		(lib_id "0_chenry_lib:R_0402_1K")
+		(at 256.54 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168549d6-00da-4665-a164-948521dfeb3a")
+		(property "Reference" "R14"
+			(at 259.08 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 259.08 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "chenry-footprint-lib:R_0402"
+			(at 256.54 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 256.54 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" "C11702"
+			(at 256.54 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 256.54 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 256.54 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 256.54 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e4ed9aa-e58d-497c-8c23-b5c25c2a59bc")
+		)
+		(pin "1"
+			(uuid "f2e549c3-6dfa-412d-9fca-ef3f12ea3b0c")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 43.18 77.47 0)
 		(unit 1)
@@ -9560,6 +10758,84 @@
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
 					(reference "#PWR32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2069b4fe-ba31-4cb5-9e94-d83293860d75")
+		(property "Reference" "#PWR099"
+			(at 165.1 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f62fbc8-4a6f-4eaf-a925-4e56a9a2dc8a")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -9816,7 +11092,7 @@
 	)
 	(symbol
 		(lib_id "0_chenry_lib:VDD_3V3")
-		(at 167.64 46.99 0)
+		(at 171.45 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -9827,7 +11103,7 @@
 		(fields_autoplaced yes)
 		(uuid "49d0303a-3723-4a16-831c-b2605b1ff24b")
 		(property "Reference" "#PWR045"
-			(at 167.64 50.8 0)
+			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9838,17 +11114,18 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 167.64 41.91 0)
+			(at 173.99 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 46.99 0)
+			(at 171.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9859,7 +11136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 46.99 0)
+			(at 171.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9870,7 +11147,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 167.64 46.99 0)
+			(at 171.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9881,7 +11158,7 @@
 			)
 		)
 		(property "JLC_PN" ""
-			(at 167.64 46.99 0)
+			(at 171.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9892,7 +11169,7 @@
 			)
 		)
 		(property "MFR_PN1" ""
-			(at 167.64 46.99 0)
+			(at 171.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9903,7 +11180,7 @@
 			)
 		)
 		(property "MFR_PN2" ""
-			(at 167.64 46.99 0)
+			(at 171.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9914,7 +11191,7 @@
 			)
 		)
 		(property "MFR_PN3" ""
-			(at 167.64 46.99 0)
+			(at 171.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10057,6 +11334,256 @@
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_chenry_lib:R_0402_2K2")
+		(at 165.1 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50c07c5a-9281-420e-9767-cf124ee8538b")
+		(property "Reference" "R19"
+			(at 162.56 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2K2"
+			(at 162.56 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "chenry-footprint-lib:R_0402"
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 2.2kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" "C25879"
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6a60488c-f51d-4396-b3aa-c6061ec3186b")
+		)
+		(pin "1"
+			(uuid "7b4605e2-0b2e-41f9-af87-a6b8c913deb3")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_chenry_lib:R_0402_100")
+		(at 210.82 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5292f6be-ffca-4429-b5d0-610c63ccd41e")
+		(property "Reference" "R17"
+			(at 210.82 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 210.82 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chenry-footprint-lib:R_0402"
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" "C25076"
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5554ab90-e23e-4bae-aea3-3b0201fa8591")
+		)
+		(pin "1"
+			(uuid "cb61f7af-5810-421b-9ad2-f8d9060629e3")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10261,6 +11788,132 @@
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
 					(reference "#PWR43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_chenry_lib:C_0402_1U")
+		(at 165.1 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "625b5d7a-bb1c-44a0-8da1-c45b3d418253")
+		(property "Reference" "C47"
+			(at 168.91 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 168.91 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "chenry-footprint-lib:C_0402"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1uF 25V X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" "CL05A105KA5NQNC"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" "C52923"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric Type" "X5R"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "25V"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2391ab80-6d12-43fa-942b-f0a9ca124f22")
+		)
+		(pin "2"
+			(uuid "6ee2fca3-485d-4b8d-95c7-67447fdd6dd1")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -10728,6 +12381,254 @@
 		)
 	)
 	(symbol
+		(lib_id "0_chenry_lib:VDD_3V3")
+		(at 165.1 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "789a5f47-bdb1-41c2-b4f2-21c37a4d8986")
+		(property "Reference" "#PWR098"
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_3V3"
+			(at 165.1 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" ""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63e2da09-b1ce-47b1-8b1a-368eaa25d1de")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_chenry_lib:R_0402_1K")
+		(at 269.24 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ba20c93-0303-44cf-9185-8d95da8b62f5")
+		(property "Reference" "R15"
+			(at 271.78 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 271.78 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "chenry-footprint-lib:R_0402"
+			(at 269.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 269.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" "C11702"
+			(at 269.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 269.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 269.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 269.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "98093b3e-c85f-4e33-a42c-dfd742c150b0")
+		)
+		(pin "1"
+			(uuid "9c3e6a90-6f88-483d-b983-36a09c20d272")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 153.67 0)
 		(unit 1)
@@ -10751,13 +12652,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 158.75 0)
+			(at 180.34 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11366,132 +13268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry_lib:R_0402_10K")
-		(at 167.64 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3a32d78-d076-4f45-beb3-3cc7c3dc7c30")
-		(property "Reference" "R5"
-			(at 170.18 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 170.18 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "chenry-footprint-lib:R_0402"
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC_PN" "C25744"
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN1" ""
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN2" ""
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN3" ""
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "65cc79fc-ad27-44ab-a874-44e14347673e")
-		)
-		(pin "1"
-			(uuid "1b09ecb6-68e3-46d3-b9a2-b9b86df9a250")
-		)
-		(instances
-			(project "Rover VCU"
-				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_chenry_lib:C_0402_100N")
 		(at 245.11 64.77 270)
 		(unit 1)
@@ -11610,6 +13386,256 @@
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_chenry_lib:C_0402_4N7")
+		(at 256.54 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aecde039-404c-4dee-a015-7bf1feeeb981")
+		(property "Reference" "C46"
+			(at 260.35 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 260.35 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "chenry-footprint-lib:C_0402"
+			(at 256.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 256.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" "0402B472K500NT"
+			(at 256.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" "C1538"
+			(at 256.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric Type" "X7R"
+			(at 256.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 256.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fe5d8895-6d88-4cff-990c-3333b99c6b4c")
+		)
+		(pin "1"
+			(uuid "fbdb98cd-c49c-412d-a00f-bd8bee4e3282")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_chenry_lib:R_0402_100")
+		(at 210.82 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b438320c-3594-4a13-a80a-60ebfbb89dfc")
+		(property "Reference" "R18"
+			(at 210.82 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 210.82 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chenry-footprint-lib:R_0402"
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" "C25076"
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "13e0606e-ff6f-4bfc-9d61-1961babe30ef")
+		)
+		(pin "1"
+			(uuid "36f3602c-2c30-469e-a741-394304fab3b4")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11765,14 +13791,13 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 27.94 59.6899 90)
+			(at 30.48 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11983,6 +14008,132 @@
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_chenry_lib:R_0402_100K")
+		(at 269.24 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c850c40f-b805-4135-9587-9a6096082452")
+		(property "Reference" "R16"
+			(at 271.78 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 271.78 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "chenry-footprint-lib:R_0402"
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" "C25741"
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" "0402WGF1003TCE"
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e11424a0-afcf-42f5-ba5f-9de6f452d55b")
+		)
+		(pin "2"
+			(uuid "bf788398-1c74-4ebe-9657-f35e1201bc37")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -12762,6 +14913,84 @@
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fed5cd08-04b6-4a9a-ad3a-f001d2a848b8")
+		(property "Reference" "#PWR097"
+			(at 262.89 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00c581e3-ecee-4f0d-b16c-de24f26bb9b4")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
