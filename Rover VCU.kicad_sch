@@ -2645,7 +2645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05c00aa4-c7b5-4469-aa44-0346e67f02d7")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR96"
 			(at 226.06 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2706,7 +2706,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR096")
+					(reference "#PWR96")
 					(unit 1)
 				)
 			)
@@ -2724,7 +2724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d34ad6a-4014-490d-a5a8-f024c5475d0e")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR77"
 			(at 129.54 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2828,7 +2828,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR077")
+					(reference "#PWR77")
 					(unit 1)
 				)
 			)
@@ -2846,7 +2846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ee8a7a3-c4e1-496f-ba02-ea2bd1252bf7")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR71"
 			(at 121.92 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2950,7 +2950,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR071")
+					(reference "#PWR71")
 					(unit 1)
 				)
 			)
@@ -3046,7 +3046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2829ad9e-0e8c-4ca6-b20d-942c205d279a")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR72"
 			(at 86.36 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3150,7 +3150,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR072")
+					(reference "#PWR72")
 					(unit 1)
 				)
 			)
@@ -3168,7 +3168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "289cda45-aa67-4bd5-a0ce-a32642e9fa20")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG2"
 			(at 88.265 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3229,7 +3229,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#FLG02")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -3247,7 +3247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "340fda7a-714b-485e-b253-4d969604a005")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR95"
 			(at 257.81 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3352,7 +3352,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR095")
+					(reference "#PWR95")
 					(unit 1)
 				)
 			)
@@ -3370,7 +3370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "412c4aa8-2032-44cb-be96-8c73e68cb1c6")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR91"
 			(at 77.47 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3474,7 +3474,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR091")
+					(reference "#PWR91")
 					(unit 1)
 				)
 			)
@@ -3492,7 +3492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "549ba9d4-7386-4cbc-9c1e-d37897432ed4")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR86"
 			(at 77.47 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3596,7 +3596,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR086")
+					(reference "#PWR86")
 					(unit 1)
 				)
 			)
@@ -3614,7 +3614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b1e170-c062-438e-ba69-8bc7c3a6a700")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR68"
 			(at 165.1 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3719,7 +3719,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR068")
+					(reference "#PWR68")
 					(unit 1)
 				)
 			)
@@ -3737,7 +3737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b887b14-b2ce-4a07-93ce-99bdb8b9ee9c")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR65"
 			(at 130.81 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3842,7 +3842,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR065")
+					(reference "#PWR65")
 					(unit 1)
 				)
 			)
@@ -3860,7 +3860,7 @@
 		(dnp no)
 		(uuid "8b257f0f-8294-4a81-9b23-8215c9f90d52")
 		(property "Reference" "J3"
-			(at 77.47 57.15 0)
+			(at 77.47 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3870,7 +3870,7 @@
 			)
 		)
 		(property "Value" "430450400"
-			(at 77.47 54.61 0)
+			(at 77.47 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3968,26 +3968,28 @@
 		(fields_autoplaced yes)
 		(uuid "8c7466ba-74e0-4df0-a2b6-809f697699ef")
 		(property "Reference" "H2"
-			(at 21.59 175.26 0)
+			(at 24.13 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 21.59 177.8 0)
+			(at 24.13 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" ""
 			(at 21.59 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -4010,50 +4012,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 21.59 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN1" ""
-			(at 21.59 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN2" ""
-			(at 21.59 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN3" ""
-			(at 21.59 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC_PN" ""
 			(at 21.59 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -4164,26 +4122,28 @@
 		(fields_autoplaced yes)
 		(uuid "9af2fd45-7e4b-4345-a96d-539532dba41d")
 		(property "Reference" "H3"
-			(at 21.59 163.83 0)
+			(at 24.13 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 21.59 166.37 0)
+			(at 24.13 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" ""
 			(at 21.59 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4206,50 +4166,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 21.59 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN1" ""
-			(at 21.59 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN2" ""
-			(at 21.59 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN3" ""
-			(at 21.59 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC_PN" ""
 			(at 21.59 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4282,26 +4198,28 @@
 		(fields_autoplaced yes)
 		(uuid "9e2bfb67-053f-46b9-b992-488e308401a8")
 		(property "Reference" "H1"
-			(at 21.59 186.69 0)
+			(at 24.13 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 21.59 189.23 0)
+			(at 24.13 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" ""
 			(at 21.59 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -4334,50 +4252,6 @@
 				)
 			)
 		)
-		(property "MFR_PN1" ""
-			(at 21.59 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN2" ""
-			(at 21.59 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN3" ""
-			(at 21.59 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC_PN" ""
-			(at 21.59 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
@@ -4399,7 +4273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad3b18ab-d70b-478f-a11d-3050a943991f")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG1"
 			(at 88.265 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4460,7 +4334,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#FLG01")
+					(reference "#FLG1")
 					(unit 1)
 				)
 			)
@@ -4479,26 +4353,28 @@
 		(fields_autoplaced yes)
 		(uuid "ad92bc0c-9151-4d6c-a6c1-036b1d90d4b7")
 		(property "Reference" "H4"
-			(at 21.59 152.4 0)
+			(at 24.13 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 21.59 154.94 0)
+			(at 24.13 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" ""
 			(at 21.59 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -4531,50 +4407,6 @@
 				)
 			)
 		)
-		(property "MFR_PN1" ""
-			(at 21.59 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN2" ""
-			(at 21.59 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN3" ""
-			(at 21.59 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC_PN" ""
-			(at 21.59 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
@@ -4596,7 +4428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ada8741f-55d1-493a-a501-6100face8689")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR67"
 			(at 132.08 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4700,7 +4532,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR067")
+					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -5006,7 +4838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecabc800-dbe4-4c7f-a2c5-6b98886d96c1")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR66"
 			(at 130.81 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5111,7 +4943,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR066")
+					(reference "#PWR66")
 					(unit 1)
 				)
 			)
@@ -5129,7 +4961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd9665d2-2ecb-4dfc-87ff-19b9ecbf33d5")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR64"
 			(at 214.63 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5233,7 +5065,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR064")
+					(reference "#PWR64")
 					(unit 1)
 				)
 			)
