@@ -125003,6 +125003,26 @@
 		)
 		(uuid "d9cc0be4-d0f2-44a9-bbaa-514c65b41c7b")
 	)
+	(text_box "TODO: Replace this with ViperGAN Series of Integrated DC/DC\n\n48V -> ViperGAN100W -> 12V -> 3.3V LDO"
+		(exclude_from_sim no)
+		(at 76.2 128.27 0)
+		(size 63.5 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b84c4b76-18dd-4cd5-9f70-68c4507bd430")
+	)
 	(junction
 		(at 134.62 96.52)
 		(diameter 0)
@@ -126238,7 +126258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20880ef0-2a68-4647-a774-e93a08f6a809")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR83"
 			(at 101.6 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -126342,7 +126362,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR083")
+					(reference "#PWR83")
 					(unit 1)
 				)
 			)
@@ -126438,7 +126458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a9e45d0-7486-4dbc-8a11-366742a0254c")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR82"
 			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -126542,7 +126562,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR082")
+					(reference "#PWR82")
 					(unit 1)
 				)
 			)
@@ -126891,7 +126911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f7b957-1439-4bc5-b5d5-b9b86971a4de")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR85"
 			(at 46.99 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -126995,7 +127015,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR085")
+					(reference "#PWR85")
 					(unit 1)
 				)
 			)
@@ -127573,7 +127593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d195007-c928-4048-873b-7fe1cc24704a")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR70"
 			(at 39.37 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -127678,7 +127698,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR070")
+					(reference "#PWR70")
 					(unit 1)
 				)
 			)
@@ -127696,7 +127716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f6325b0-8698-4aae-a108-b6b4d4a1bfee")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR84"
 			(at 68.58 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -127800,7 +127820,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR084")
+					(reference "#PWR84")
 					(unit 1)
 				)
 			)
@@ -127896,7 +127916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e1cb6b6-369f-4b63-9296-7374c636ddcd")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR79"
 			(at 193.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -128000,7 +128020,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR079")
+					(reference "#PWR79")
 					(unit 1)
 				)
 			)
@@ -128258,7 +128278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "add891f0-f55d-449a-ae28-a66c2ee7f478")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR92"
 			(at 39.37 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -128363,7 +128383,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR092")
+					(reference "#PWR92")
 					(unit 1)
 				)
 			)
@@ -128816,7 +128836,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6a58cac-5182-4c13-ba2e-0fb27692b5f4")
 		(property "Reference" "L1"
-			(at 95.25 99.06 90)
+			(at 95.25 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -128826,7 +128846,7 @@
 			)
 		)
 		(property "Value" "15uH"
-			(at 95.25 101.6 90)
+			(at 95.25 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -128917,7 +128937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbcb73c6-a0be-4f1a-90b0-31edd7d4163e")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR93"
 			(at 232.41 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -129022,7 +129042,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR093")
+					(reference "#PWR93")
 					(unit 1)
 				)
 			)
@@ -129040,7 +129060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d65ccc3d-2e21-4ecc-991f-53203e47b281")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR81"
 			(at 149.86 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -129144,7 +129164,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR081")
+					(reference "#PWR81")
 					(unit 1)
 				)
 			)
@@ -129162,7 +129182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1311e4a-b04e-4e56-82b0-fde7a6dd9a2d")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR75"
 			(at 39.37 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -129267,7 +129287,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR075")
+					(reference "#PWR75")
 					(unit 1)
 				)
 			)
@@ -129285,7 +129305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e44a3404-45d6-4132-a92f-f6b90a7ba392")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR80"
 			(at 36.83 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -129390,7 +129410,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR080")
+					(reference "#PWR80")
 					(unit 1)
 				)
 			)
@@ -129590,7 +129610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f429940f-75ba-4bf4-9b70-a8632ed248af")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR78"
 			(at 39.37 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -129694,7 +129714,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/1a57b0d4-5d08-45a2-8c8c-1ccd6aae71a7"
-					(reference "#PWR078")
+					(reference "#PWR78")
 					(unit 1)
 				)
 			)

@@ -47,7 +47,7 @@
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.05,
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
@@ -718,6 +718,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -730,7 +738,7 @@
         "uuid": "33c96268-4ca2-4a73-94d6-a3ed4f27d429"
       }
     ],
-    "used_designators": "#PWR97-99,C46-47,R5,R14-19",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
