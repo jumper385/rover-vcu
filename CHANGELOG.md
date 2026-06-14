@@ -1,3 +1,11 @@
+## 0.2.2 (2026-06-14)
+
+### Fix
+
+- updated 12pin connector footprint + fix drc and exposed vias
+- added annotations and 3d models
+- final polishes for MFR
+
 ## 0.2.1 (2026-06-11)
 
 ### Fix
