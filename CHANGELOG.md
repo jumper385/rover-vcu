@@ -1,3 +1,9 @@
+## 0.2.3 (2026-06-15)
+
+### Fix
+
+- tiny fixes; adjusted pin names as check
+
 ## 0.2.2 (2026-06-14)
 
 ### Fix
