@@ -30371,6 +30371,7 @@
 		)
 		(pin "61"
 			(uuid "b90de757-3a7f-4b20-975e-2ec69785c261")
+			(alternate "FDCAN1_RX")
 		)
 		(pin "39"
 			(uuid "a6e2f535-ec9d-4d35-b8ec-ee0f6852f26d")
@@ -30383,6 +30384,7 @@
 		)
 		(pin "36"
 			(uuid "fdcf725e-5ede-4f00-b622-6a0957320140")
+			(alternate "ETH_TXD1")
 		)
 		(pin "38"
 			(uuid "f4b9d820-dba3-4240-9d87-6fea99171f08")
@@ -30401,12 +30403,15 @@
 		)
 		(pin "45"
 			(uuid "5808344e-040a-4e20-a03d-f4f15f8ab924")
+			(alternate "USB_DP")
 		)
 		(pin "44"
 			(uuid "50073a54-3ae4-4ef3-a9c7-33b093a9dbf6")
+			(alternate "USB_DM")
 		)
 		(pin "46"
 			(uuid "6cfd9351-fbc7-4029-bf6c-800543146475")
+			(alternate "DEBUG_JTMS-SWDIO")
 		)
 		(pin "43"
 			(uuid "a1815859-c380-45ba-bc7f-2f350c3eacde")
@@ -30428,6 +30433,7 @@
 		)
 		(pin "25"
 			(uuid "dddea2ce-51a4-4040-a7b5-d4ecacbab68c")
+			(alternate "ETH_RXD1")
 		)
 		(pin "32"
 			(uuid "f4adc520-a737-439d-ab57-6085a06845d2")
@@ -30437,6 +30443,7 @@
 		)
 		(pin "33"
 			(uuid "666cdb8f-c979-4bee-b9ab-634ae4329356")
+			(alternate "ETH_TXD0")
 		)
 		(pin "27"
 			(uuid "6c9df5b6-3fdf-4f88-97c8-48eb41d0e375")
@@ -30449,6 +30456,7 @@
 		)
 		(pin "9"
 			(uuid "c4dcf775-00aa-4eae-a6bc-c62468578085")
+			(alternate "ETH_MDC")
 		)
 		(pin "8"
 			(uuid "e8748f3b-1c3c-4e50-9c98-b6ce515685b3")
@@ -30458,15 +30466,19 @@
 		)
 		(pin "6"
 			(uuid "a302fede-f8dd-422c-8cb9-86aeacff2775")
+			(alternate "RCC_OSC_OUT")
 		)
 		(pin "5"
 			(uuid "660e1c7d-8178-4682-bf33-a6999699f35b")
+			(alternate "RCC_OSC_IN")
 		)
 		(pin "4"
 			(uuid "fe00200b-dbd4-4e6d-a3db-7f058acee2ca")
+			(alternate "RCC_OSC32_OUT")
 		)
 		(pin "3"
 			(uuid "42de9c4e-c049-45b6-998e-97f6e14d05ac")
+			(alternate "RCC_OSC32_IN")
 		)
 		(pin "2"
 			(uuid "ce876f38-2d37-4596-b10a-f4ded38b5db1")
@@ -30488,9 +30500,11 @@
 		)
 		(pin "15"
 			(uuid "9736f744-2279-4d7a-902c-f574c4a248b3")
+			(alternate "ETH_REF_CLK")
 		)
 		(pin "16"
 			(uuid "06d07dd1-3f4b-478b-a44c-d0ee7910ccdf")
+			(alternate "ETH_MDIO")
 		)
 		(pin "17"
 			(uuid "d20a5359-a0ce-4886-b872-1e12a431e678")
@@ -30506,21 +30520,25 @@
 		)
 		(pin "21"
 			(uuid "77a49a70-f78f-485b-84c1-a6ba436163d2")
+			(alternate "ETH_TX_EN")
 		)
 		(pin "22"
 			(uuid "f895d2f6-c15b-40a2-816b-a56c46caea7e")
 		)
 		(pin "23"
 			(uuid "11a6a4d5-c507-4c2b-b45d-1662d1cf94bc")
+			(alternate "ETH_CRS_DV")
 		)
 		(pin "24"
 			(uuid "65bfbd66-63a9-4552-bac9-ed86c53675f1")
+			(alternate "ETH_RXD0")
 		)
 		(pin "54"
 			(uuid "35fcfdf0-e38c-477b-9f06-19d822f97a54")
 		)
 		(pin "57"
 			(uuid "6b8b10ad-df92-4d44-a3f1-e688faeec682")
+			(alternate "FDCAN2_RX")
 		)
 		(pin "52"
 			(uuid "0b9cb9bd-4cce-47cf-a448-7dda46d2fd5c")
@@ -30536,21 +30554,26 @@
 		)
 		(pin "49"
 			(uuid "7bd22ea3-87f1-486a-93a8-e504d522b254")
+			(alternate "DEBUG_JTCK-SWCLK")
 		)
 		(pin "59"
 			(uuid "4fd5de04-b9af-448f-a30f-5a1320dc0713")
+			(alternate "FDCAN1_TX")
 		)
 		(pin "55"
 			(uuid "42e42f79-b855-44bf-8129-8e308ecb0c4e")
+			(alternate "UART7_RX")
 		)
 		(pin "53"
 			(uuid "2a326b7c-7f5e-44ba-b6a2-9a42e2cefc0f")
 		)
 		(pin "58"
 			(uuid "adda734c-bc5b-4a5b-94e1-dfaf59b1098c")
+			(alternate "FDCAN2_TX")
 		)
 		(pin "56"
 			(uuid "eeabe4c9-1d51-4244-8d18-e558162d631b")
+			(alternate "UART7_TX")
 		)
 		(pin "64"
 			(uuid "47a8602a-3de4-4d3d-a69a-41773c22d33c")
