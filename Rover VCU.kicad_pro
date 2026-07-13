@@ -738,7 +738,7 @@
         "uuid": "33c96268-4ca2-4a73-94d6-a3ed4f27d429"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J4,XTAL2,R5,R14-19,R23-33,C15-25,#PWR31-32,#PWR35,#PWR38,#PWR40-43,#PWR45,#PWR97-102,#PWR104-107,U2",
     "variants": []
   },
   "sheets": [
