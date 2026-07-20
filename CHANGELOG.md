@@ -1,3 +1,13 @@
+## 0.3.0 (2026-07-20)
+
+### Feat
+
+- implmeneted revamp with normal ethernet LAN8742A
+
+### Fix
+
+- **eth_phy**: completed revamp with lan8742a
+
 ## 0.2.4 (2026-06-16)
 
 ### Fix
