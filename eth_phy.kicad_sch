@@ -5,7 +5,207 @@
 	(uuid "bf7841d7-389e-4e08-aaac-fe4802aff011")
 	(paper "A4")
 	(lib_symbols
-		(symbol "0_chenry-lib:C_0402_100N"
+		(symbol "0_chenry_lib:BLM18KG601SH"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "600Ohm @ 100MHz"
+				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/QNFA9101_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250918112957"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "FERRITE BEAD 600 OHM 0603 1LN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN1" "BLM18KG601SH1D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC_PN" "C1002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN2" "GZ1608D601TF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BLM18KG601SH_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BLM18KG601SH_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0_chenry_lib:C_0402_100N"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -174,7 +374,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:C_0402_100P"
+		(symbol "0_chenry_lib:C_0402_100P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -343,7 +543,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:C_0402_10U"
+		(symbol "0_chenry_lib:C_0402_10U"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -512,7 +712,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:C_0402_1U"
+		(symbol "0_chenry_lib:C_0402_1U"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -681,7 +881,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:C_0402_20P"
+		(symbol "0_chenry_lib:C_0402_20P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -850,7 +1050,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:LAN8742A"
+		(symbol "0_chenry_lib:LAN8742A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1471,7 +1671,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:RJ45_Hanrun_HR911105A_Horizontal"
+		(symbol "0_chenry_lib:RJ45_Hanrun_HR911105A_Horizontal"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3004,7 +3204,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:R_0402_10K"
+		(symbol "0_chenry_lib:R_0402_10K"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3160,7 +3360,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:R_0402_12K1"
+		(symbol "0_chenry_lib:R_0402_12K1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3316,7 +3516,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:R_0402_330R"
+		(symbol "0_chenry_lib:R_0402_330R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3472,7 +3672,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:R_0402_33R"
+		(symbol "0_chenry_lib:R_0402_33R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3628,7 +3828,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:R_0402_49R9"
+		(symbol "0_chenry_lib:R_0402_49R9"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3784,7 +3984,190 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry-lib:X322525MOB4SI"
+		(symbol "0_chenry_lib:VDD_3V3"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR64"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD_3V3"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC_PN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN2" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR_PN3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD_3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0_chenry_lib:X322525MOB4SI"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -8859,189 +9242,6 @@
 				)
 			)
 		)
-		(symbol "0_chenry_lib:VDD_3V3"
-			(power local)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files no)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR64"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VDD_3V3"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLC_PN" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFR_PN1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFR_PN2" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFR_PN3" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VDD_3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -9157,12 +9357,149 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Datasheet uses 470pF"
+		(exclude_from_sim no)
+		(at 74.93 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ac5469e-add1-44a4-89f0-92ea57921a57")
 	)
 	(junction
 		(at 54.61 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00473507-b504-452e-83b9-ea6c54499b50")
+	)
+	(junction
+		(at 133.35 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f2bc8ae-b3bb-4d63-a25e-a937ee50cde8")
+	)
+	(junction
+		(at 102.87 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10fa2ab0-c0aa-43f6-821b-ddb43df77c05")
 	)
 	(junction
 		(at 200.66 95.25)
@@ -9189,10 +9526,10 @@
 		(uuid "28d154a9-244f-48e1-9f1e-71e5314f47c7")
 	)
 	(junction
-		(at 133.35 44.45)
+		(at 120.65 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39308a1c-ef48-4baf-9fad-83ff73f3956d")
+		(uuid "35c96df2-892a-477a-bb76-1277e7fe1ca8")
 	)
 	(junction
 		(at 200.66 67.31)
@@ -9213,7 +9550,7 @@
 		(uuid "46d63964-14c6-4eb3-a616-3ca2032a6f2a")
 	)
 	(junction
-		(at 147.32 44.45)
+		(at 147.32 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "883a910f-2358-4d85-b5c5-b4e74a6daac5")
@@ -9229,12 +9566,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96364f2c-7896-40c2-ba9c-ea22aea32098")
-	)
-	(junction
-		(at 120.65 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "972f43da-c789-4a1e-9300-702fa099132d")
 	)
 	(junction
 		(at 181.61 100.33)
@@ -9279,6 +9610,24 @@
 		(uuid "ae859457-6091-4f99-a577-760d0242b804")
 	)
 	(junction
+		(at 120.65 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b657dd96-5213-41f4-8958-c0d7e6dcdce7")
+	)
+	(junction
+		(at 102.87 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b790cc2a-7fc1-4d17-bdd3-a5894bf99a9a")
+	)
+	(junction
+		(at 118.11 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c05d25d6-8ddf-4136-b609-3455c65b7ed9")
+	)
+	(junction
 		(at 68.58 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9301,6 +9650,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3702528-3a9c-4014-80aa-26ee21aab67f")
+	)
+	(junction
+		(at 74.93 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb9b7fcd-c417-4f10-b1bb-e157e559f062")
 	)
 	(junction
 		(at 158.75 95.25)
@@ -9524,6 +9879,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 40.64) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a3bdc3-492a-4ede-8b3d-fde32fbce4f2")
+	)
+	(wire
+		(pts
 			(xy 29.21 92.71) (xy 100.33 92.71)
 		)
 		(stroke
@@ -9531,16 +9896,6 @@
 			(type default)
 		)
 		(uuid "23b966b7-a4f9-4697-b393-90df948fbec7")
-	)
-	(wire
-		(pts
-			(xy 133.35 44.45) (xy 133.35 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24da47fd-71f5-4b12-aedc-87ff1f537c48")
 	)
 	(wire
 		(pts
@@ -9594,7 +9949,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 44.45) (xy 133.35 44.45)
+			(xy 147.32 40.64) (xy 133.35 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9744,7 +10099,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 44.45) (xy 120.65 72.39)
+			(xy 120.65 40.64) (xy 120.65 72.39)
 		)
 		(stroke
 			(width 0)
@@ -9791,6 +10146,16 @@
 			(type default)
 		)
 		(uuid "623fbe44-f508-417f-9be0-12c9944abc48")
+	)
+	(wire
+		(pts
+			(xy 74.93 31.75) (xy 74.93 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6294ba1a-d5da-4dec-8b2a-f2393a8bff7e")
 	)
 	(wire
 		(pts
@@ -9944,6 +10309,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 41.91) (xy 133.35 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8acb56-70f1-40c2-893f-26765c812ca9")
+	)
+	(wire
+		(pts
 			(xy 40.64 97.79) (xy 54.61 97.79)
 		)
 		(stroke
@@ -10014,7 +10389,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 44.45) (xy 120.65 44.45)
+			(xy 133.35 40.64) (xy 120.65 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10084,7 +10459,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 44.45) (xy 147.32 45.72)
+			(xy 147.32 40.64) (xy 147.32 41.91)
 		)
 		(stroke
 			(width 0)
@@ -10214,6 +10589,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 40.64) (xy 120.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed2446e-afd1-4d95-9cef-2d5eb88ce9ee")
+	)
+	(wire
+		(pts
 			(xy 138.43 115.57) (xy 204.47 115.57)
 		)
 		(stroke
@@ -10241,6 +10626,16 @@
 			(type default)
 		)
 		(uuid "b30f6ce2-6f6f-428c-bdcc-1a5236323b5f")
+	)
+	(wire
+		(pts
+			(xy 74.93 38.1) (xy 74.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3beea40-d722-43fe-84dd-0c60e6dffc51")
 	)
 	(wire
 		(pts
@@ -10294,7 +10689,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 40.64) (xy 118.11 40.64)
+			(xy 88.9 40.64) (xy 102.87 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10394,7 +10789,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 44.45) (xy 161.29 45.72)
+			(xy 161.29 40.64) (xy 161.29 41.91)
 		)
 		(stroke
 			(width 0)
@@ -10554,7 +10949,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 44.45) (xy 147.32 44.45)
+			(xy 161.29 40.64) (xy 147.32 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10571,6 +10966,16 @@
 			(type default)
 		)
 		(uuid "f5abcddf-7a61-430b-838c-059e954e67df")
+	)
+	(wire
+		(pts
+			(xy 102.87 40.64) (xy 102.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b21e3a-0af0-4676-bb21-3c7015ff9cd6")
 	)
 	(wire
 		(pts
@@ -10787,7 +11192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04a8a4ca-983b-4304-959b-5ba6b919c63d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR42"
 			(at 102.87 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10847,7 +11252,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR042")
+					(reference "#PWR42")
 					(unit 1)
 				)
 			)
@@ -10877,14 +11282,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 22.8599 0)
+			(at 33.02 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10945,7 +11349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14cbe781-6761-45c7-b39f-b70c1bdfff94")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR105"
 			(at 210.82 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11005,7 +11409,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR0105")
+					(reference "#PWR105")
 					(unit 1)
 				)
 			)
@@ -11024,7 +11428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bc557c5-d477-4242-815a-6d0597dd4d04")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR107"
 			(at 236.22 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11084,14 +11488,14 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR0107")
+					(reference "#PWR107")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_33R")
+		(lib_id "0_chenry_lib:R_0402_33R")
 		(at 36.83 100.33 90)
 		(unit 1)
 		(body_style 1)
@@ -11100,10 +11504,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "207e803d-6207-4ef3-81e4-3325c276842a")
 		(property "Reference" "R15"
-			(at 36.83 93.98 90)
+			(at 31.75 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11113,7 +11516,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 36.83 96.52 90)
+			(at 37.084 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11215,7 +11618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_1U")
+		(lib_id "0_chenry_lib:C_0402_1U")
 		(at 88.9 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -11325,6 +11728,28 @@
 				)
 			)
 		)
+		(property "MFR_PN2" ""
+			(at 88.9 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 88.9 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "36413eb6-c70f-4f0c-b4e4-e1856f35ec19")
 		)
@@ -11341,7 +11766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_100P")
+		(lib_id "0_chenry_lib:C_0402_100P")
 		(at 74.93 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -11451,6 +11876,28 @@
 				)
 			)
 		)
+		(property "MFR_PN2" ""
+			(at 74.93 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 74.93 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e93c9d7-f3ac-4323-bcf5-ffd3b3b8c87c")
 		)
@@ -11467,8 +11914,8 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_10K")
-		(at 46.99 102.87 90)
+		(lib_id "power:PWR_FLAG")
+		(at 102.87 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11477,9 +11924,86 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "232c0db1-8fd0-4ca5-8f5f-b2af44ee9607")
+		(property "Reference" "#FLG05"
+			(at 102.87 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 102.87 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 102.87 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fab9b989-f661-4d28-92a4-bec78b9a0952")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_chenry_lib:R_0402_10K")
+		(at 46.99 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "295834b2-62d6-4d0f-bbda-f036ac090382")
 		(property "Reference" "R5"
-			(at 46.99 95.25 90)
+			(at 52.578 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11489,7 +12013,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 46.99 97.79 90)
+			(at 46.99 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11602,7 +12126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2be43ece-5720-484e-9d38-1b3a2e90e8e5")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR32"
 			(at 50.8 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11663,14 +12187,14 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR032")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_330R")
+		(lib_id "0_chenry_lib:R_0402_330R")
 		(at 246.38 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -11796,7 +12320,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_49R9")
+		(lib_id "0_chenry_lib:R_0402_49R9")
 		(at 147.32 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -11922,7 +12446,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_100N")
+		(lib_id "0_chenry_lib:C_0402_100N")
 		(at 236.22 73.66 0)
 		(mirror y)
 		(unit 1)
@@ -12049,7 +12573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_49R9")
+		(lib_id "0_chenry_lib:R_0402_49R9")
 		(at 170.18 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -12186,7 +12710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e465c6-5617-46a2-9a55-044acccce4d6")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR102"
 			(at 233.68 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12246,14 +12770,14 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR0102")
+					(reference "#PWR102")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_33R")
+		(lib_id "0_chenry_lib:R_0402_33R")
 		(at 36.83 97.79 90)
 		(unit 1)
 		(body_style 1)
@@ -12262,10 +12786,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4893e3c5-6a38-4750-8ca8-ab309bfffa53")
 		(property "Reference" "R14"
-			(at 36.83 91.44 90)
+			(at 31.75 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12275,7 +12798,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 36.83 93.98 90)
+			(at 37.084 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12377,7 +12900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_10K")
+		(lib_id "0_chenry_lib:R_0402_10K")
 		(at 69.85 81.28 180)
 		(unit 1)
 		(body_style 1)
@@ -12514,7 +13037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5035dc87-d6ee-414f-8efb-d0afa4bb83fb")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR104"
 			(at 246.38 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12574,14 +13097,14 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR0104")
+					(reference "#PWR104")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_100N")
+		(lib_id "0_chenry_lib:C_0402_100N")
 		(at 102.87 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -12691,6 +13214,28 @@
 				)
 			)
 		)
+		(property "MFR_PN2" ""
+			(at 102.87 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 102.87 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0929a7df-9a67-4af5-a0b5-c5a8da8c3435")
 		)
@@ -12707,7 +13252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_100N")
+		(lib_id "0_chenry_lib:C_0402_100N")
 		(at 210.82 73.66 0)
 		(mirror y)
 		(unit 1)
@@ -12845,7 +13390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5acc4905-a0f3-4476-9079-5073a929e88c")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR97"
 			(at 120.65 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12905,14 +13450,14 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR097")
+					(reference "#PWR97")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_100N")
+		(lib_id "0_chenry_lib:C_0402_100N")
 		(at 223.52 73.66 0)
 		(mirror y)
 		(unit 1)
@@ -13039,7 +13584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_33R")
+		(lib_id "0_chenry_lib:R_0402_33R")
 		(at 36.83 118.11 90)
 		(unit 1)
 		(body_style 1)
@@ -13048,10 +13593,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6940482b-c06c-43a9-997b-00ee3aafac3a")
 		(property "Reference" "R17"
-			(at 36.83 121.92 90)
+			(at 31.242 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13061,7 +13605,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 36.83 124.46 90)
+			(at 36.83 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13163,7 +13707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:LAN8742A")
+		(lib_id "0_chenry_lib:LAN8742A")
 		(at 120.65 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -13359,7 +13903,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_49R9")
+		(lib_id "0_chenry_lib:R_0402_49R9")
 		(at 181.61 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -13496,7 +14040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fa061f9-5353-49d0-856a-09b8e157d73e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 50.8 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -13557,14 +14101,14 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_49R9")
+		(lib_id "0_chenry_lib:R_0402_49R9")
 		(at 158.75 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -13690,6 +14234,121 @@
 		)
 	)
 	(symbol
+		(lib_id "0_chenry_lib:BLM18KG601SH")
+		(at 74.93 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "865d2414-91cf-427a-a83e-91d189e2379f")
+		(property "Reference" "FB1"
+			(at 77.47 34.328 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "600Ohm @ 100MHz"
+			(at 77.47 36.868 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.708 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/QNFA9101_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250918112957"
+			(at 74.93 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FERRITE BEAD 600 OHM 0603 1LN"
+			(at 74.93 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" "BLM18KG601SH1D"
+			(at 74.93 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" "C1002"
+			(at 74.93 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" "GZ1608D601TF"
+			(at 74.93 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7df86881-785a-4454-87da-9f7db75cfb13")
+		)
+		(pin "1"
+			(uuid "5d95f291-22ea-4867-b7cd-fd87d4802d1c")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 73.66 147.32 90)
 		(unit 1)
@@ -13701,7 +14360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d830634-64d8-43a5-acc9-2a849f9ce730")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR31"
 			(at 80.01 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13762,7 +14421,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR031")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
@@ -13891,8 +14550,8 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_10U")
-		(at 161.29 49.53 0)
+		(lib_id "0_chenry_lib:C_0402_10U")
+		(at 161.29 45.72 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13904,7 +14563,7 @@
 		(fields_autoplaced yes)
 		(uuid "94f6d910-403e-4df0-8edb-bfb4dc150d25")
 		(property "Reference" "C15"
-			(at 165.1 48.2599 0)
+			(at 165.1 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13915,7 +14574,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 165.1 50.7999 0)
+			(at 165.1 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13926,7 +14585,7 @@
 			)
 		)
 		(property "Footprint" "chenry-footprint-lib:C_0402"
-			(at 161.29 49.53 0)
+			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13937,7 +14596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 49.53 0)
+			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13948,7 +14607,7 @@
 			)
 		)
 		(property "Description" "10uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 161.29 49.53 0)
+			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13959,7 +14618,7 @@
 			)
 		)
 		(property "MFR_PN1" "CL05A106MQ5NUNC"
-			(at 161.29 49.53 0)
+			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13970,7 +14629,7 @@
 			)
 		)
 		(property "JLC_PN" "C15525"
-			(at 161.29 49.53 0)
+			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13981,7 +14640,7 @@
 			)
 		)
 		(property "Dielectric Type" "X5R"
-			(at 161.29 49.53 0)
+			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13992,7 +14651,29 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
-			(at 161.29 49.53 0)
+			(at 161.29 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 161.29 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14142,7 +14823,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 53.34 0)
+		(at 161.29 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14153,8 +14834,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a329749a-0ba7-464e-9f3e-1a03e8aa73cb")
-		(property "Reference" "#PWR041"
-			(at 161.29 59.69 0)
+		(property "Reference" "#PWR41"
+			(at 161.29 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14165,7 +14846,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 58.42 0)
+			(at 161.29 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14175,7 +14856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 53.34 0)
+			(at 161.29 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14186,7 +14867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 53.34 0)
+			(at 161.29 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14197,7 +14878,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 53.34 0)
+			(at 161.29 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14213,7 +14894,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR041")
+					(reference "#PWR41")
 					(unit 1)
 				)
 			)
@@ -14232,7 +14913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4162bdc-d32d-4b72-9fc1-e6f9db8cfde5")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR45"
 			(at 74.93 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -14292,7 +14973,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR045")
+					(reference "#PWR45")
 					(unit 1)
 				)
 			)
@@ -14300,7 +14981,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 53.34 0)
+		(at 147.32 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14311,8 +14992,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a542b87c-4d68-4dfa-bd6c-ac5fdc3bf141")
-		(property "Reference" "#PWR040"
-			(at 147.32 59.69 0)
+		(property "Reference" "#PWR40"
+			(at 147.32 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14323,7 +15004,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 58.42 0)
+			(at 147.32 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14333,7 +15014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 53.34 0)
+			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14344,7 +15025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 53.34 0)
+			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14355,7 +15036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 53.34 0)
+			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14371,7 +15052,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR040")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
@@ -14390,7 +15071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a61b3a36-e259-4377-bb7d-b5a913a7eef6")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR100"
 			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14451,7 +15132,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR0100")
+					(reference "#PWR100")
 					(unit 1)
 				)
 			)
@@ -14469,7 +15150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9090341-61fb-4bbd-bc9e-3bba49664f54")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR98"
 			(at 36.83 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14530,14 +15211,14 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR098")
+					(reference "#PWR98")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_33R")
+		(lib_id "0_chenry_lib:R_0402_33R")
 		(at 36.83 105.41 90)
 		(unit 1)
 		(body_style 1)
@@ -14546,10 +15227,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "af132f8c-ad96-48ae-a3ee-a66cdb1c1358")
 		(property "Reference" "R16"
-			(at 36.83 110.49 90)
+			(at 31.75 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14559,7 +15239,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 36.83 113.03 90)
+			(at 37.084 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14661,7 +15341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_330R")
+		(lib_id "0_chenry_lib:R_0402_330R")
 		(at 256.54 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -14787,8 +15467,8 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_100N")
-		(at 133.35 52.07 0)
+		(lib_id "0_chenry_lib:C_0402_100N")
+		(at 133.35 45.72 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14797,9 +15477,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b72a2ef3-1c6e-40a7-9f71-7cde5cb685f8")
 		(property "Reference" "C17"
-			(at 137.16 48.2599 0)
+			(at 137.16 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14810,7 +15491,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 137.16 50.7999 0)
+			(at 137.16 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14821,7 +15502,7 @@
 			)
 		)
 		(property "Footprint" "chenry-footprint-lib:C_0402"
-			(at 133.35 52.07 0)
+			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14832,7 +15513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 52.07 0)
+			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14843,7 +15524,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 133.35 52.07 0)
+			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14854,7 +15535,7 @@
 			)
 		)
 		(property "MFR_PN1" "CL05B104KO5NNNC"
-			(at 133.35 52.07 0)
+			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14865,7 +15546,7 @@
 			)
 		)
 		(property "JLC_PN" "C1525"
-			(at 133.35 52.07 0)
+			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14876,7 +15557,7 @@
 			)
 		)
 		(property "Dielectric Type" "X5R"
-			(at 133.35 52.07 0)
+			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14887,7 +15568,7 @@
 			)
 		)
 		(property "Voltage Rating" "16V"
-			(at 133.35 52.07 0)
+			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14913,8 +15594,8 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_100N")
-		(at 147.32 49.53 0)
+		(lib_id "0_chenry_lib:C_0402_100N")
+		(at 147.32 45.72 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14926,7 +15607,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8b89f34-2833-4ff1-bf37-6290275e343f")
 		(property "Reference" "C16"
-			(at 151.13 48.2599 0)
+			(at 151.13 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14937,7 +15618,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 151.13 50.7999 0)
+			(at 151.13 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14948,7 +15629,7 @@
 			)
 		)
 		(property "Footprint" "chenry-footprint-lib:C_0402"
-			(at 147.32 49.53 0)
+			(at 147.32 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14959,7 +15640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 49.53 0)
+			(at 147.32 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14970,7 +15651,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 147.32 49.53 0)
+			(at 147.32 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14981,7 +15662,7 @@
 			)
 		)
 		(property "MFR_PN1" "CL05B104KO5NNNC"
-			(at 147.32 49.53 0)
+			(at 147.32 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14992,7 +15673,7 @@
 			)
 		)
 		(property "JLC_PN" "C1525"
-			(at 147.32 49.53 0)
+			(at 147.32 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15003,7 +15684,7 @@
 			)
 		)
 		(property "Dielectric Type" "X5R"
-			(at 147.32 49.53 0)
+			(at 147.32 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15014,7 +15695,7 @@
 			)
 		)
 		(property "Voltage Rating" "16V"
-			(at 147.32 49.53 0)
+			(at 147.32 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15052,7 +15733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8c20d52-07c9-4260-b855-d5407d3a91dd")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR106"
 			(at 223.52 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15112,14 +15793,136 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR0106")
+					(reference "#PWR106")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_10K")
+		(lib_id "0_chenry_lib:VDD_3V3")
+		(at 74.93 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc22830f-eb65-40c1-a87e-7348f60a4ad4")
+		(property "Reference" "#PWR0108"
+			(at 74.93 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_3V3"
+			(at 74.93 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" ""
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdecf266-1f2e-4376-b91b-24e5672e64f4")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_chenry_lib:R_0402_10K")
 		(at 62.23 81.28 180)
 		(unit 1)
 		(body_style 1)
@@ -15245,7 +16048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_20P")
+		(lib_id "0_chenry_lib:C_0402_20P")
 		(at 60.96 158.75 90)
 		(unit 1)
 		(body_style 1)
@@ -15369,7 +16172,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:C_0402_20P")
+		(lib_id "0_chenry_lib:C_0402_20P")
 		(at 60.96 135.89 90)
 		(unit 1)
 		(body_style 1)
@@ -15467,6 +16270,28 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
+			(at 60.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 60.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
 			(at 60.96 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15615,7 +16440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_10K")
+		(lib_id "0_chenry_lib:R_0402_10K")
 		(at 77.47 81.28 180)
 		(unit 1)
 		(body_style 1)
@@ -15753,7 +16578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e01fc254-ab2f-4b5f-89e3-108297ef3892")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR43"
 			(at 88.9 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15813,14 +16638,14 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR043")
+					(reference "#PWR43")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_10K")
+		(lib_id "0_chenry_lib:R_0402_10K")
 		(at 85.09 81.28 180)
 		(unit 1)
 		(body_style 1)
@@ -15946,7 +16771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:RJ45_Hanrun_HR911105A_Horizontal")
+		(lib_id "0_chenry_lib:RJ45_Hanrun_HR911105A_Horizontal")
 		(at 223.52 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -16032,6 +16857,28 @@
 				)
 			)
 		)
+		(property "MFR_PN2" ""
+			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "SH"
 			(uuid "61c1dc54-700c-4cfa-9849-3afbc228e3ef")
 		)
@@ -16081,7 +16928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_10K")
+		(lib_id "0_chenry_lib:R_0402_10K")
 		(at 54.61 81.28 180)
 		(unit 1)
 		(body_style 1)
@@ -16208,7 +17055,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 55.88 0)
+		(at 133.35 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16219,8 +17066,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f678c556-06f2-4b89-9e08-23e03a7d3b4c")
-		(property "Reference" "#PWR038"
-			(at 133.35 62.23 0)
+		(property "Reference" "#PWR38"
+			(at 133.35 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16231,7 +17078,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 60.96 0)
+			(at 133.35 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16241,7 +17088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 55.88 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16252,7 +17099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 55.88 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16263,7 +17110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 55.88 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16279,14 +17126,14 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429/a0f98a55-8e90-4373-9114-a4ee0fe31acf"
-					(reference "#PWR038")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_10K")
+		(lib_id "0_chenry_lib:R_0402_10K")
 		(at 267.97 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -16412,7 +17259,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:R_0402_12K1")
+		(lib_id "0_chenry_lib:R_0402_12K1")
 		(at 147.32 107.95 90)
 		(unit 1)
 		(body_style 1)
@@ -16536,7 +17383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry-lib:X322525MOB4SI")
+		(lib_id "0_chenry_lib:X322525MOB4SI")
 		(at 68.58 147.32 90)
 		(unit 1)
 		(body_style 1)
@@ -16636,6 +17483,28 @@
 			)
 		)
 		(property "JLC_PN" "C9006"
+			(at 68.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 68.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
 			(at 68.58 147.32 0)
 			(hide yes)
 			(show_name no)

@@ -2723,6 +2723,17 @@
 				)
 			)
 		)
+		(property "MFR_PN3" ""
+			(at 148.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7085bb06-2b0d-4ba4-b5bf-31ab00714cb8")
 		)

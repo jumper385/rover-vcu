@@ -713,201 +713,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_chenry_lib:GND_CHASIS"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR78"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND_CHASIS"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLC_PN" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFR_PN1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFR_PN2" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFR_PN3" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_CHASIS_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_CHASIS_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "0_chenry_lib:VBUS_5V"
 			(power local)
 			(pin_numbers
@@ -1927,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 171.45 81.28)
+			(xy 161.29 77.47) (xy 171.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1974,16 +1779,6 @@
 			(type default)
 		)
 		(uuid "2b0181c2-7e97-4e4b-8b8a-aa8ddc0d619d")
-	)
-	(wire
-		(pts
-			(xy 129.54 53.34) (xy 134.62 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cac121e-57a4-4eab-983c-e4f6bc9bc009")
 	)
 	(wire
 		(pts
@@ -2037,6 +1832,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 82.55) (xy 171.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d6f4f0-6098-4178-bd4a-05fa39e5e0c2")
+	)
+	(wire
+		(pts
 			(xy 77.47 55.88) (xy 86.36 55.88)
 		)
 		(stroke
@@ -2057,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 53.34) (xy 166.37 53.34)
+			(xy 134.62 53.34) (xy 129.54 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2127,16 +1932,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 57.15) (xy 129.54 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6be0b2c0-87d8-42d7-9ef0-68164acf4ec2")
-	)
-	(wire
-		(pts
 			(xy 118.11 93.98) (xy 134.62 93.98)
 		)
 		(stroke
@@ -2167,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 74.93) (xy 132.08 86.36)
+			(xy 132.08 71.12) (xy 132.08 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 53.34) (xy 166.37 57.15)
+			(xy 129.54 53.34) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2304,6 +2099,16 @@
 			(type default)
 		)
 		(uuid "b85373c5-be9d-4faf-a74c-d020d3e60501")
+	)
+	(wire
+		(pts
+			(xy 161.29 80.01) (xy 171.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb03719-c058-4827-b734-ef0619c489f7")
 	)
 	(wire
 		(pts
@@ -2377,7 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 74.93) (xy 121.92 88.9)
+			(xy 121.92 71.12) (xy 121.92 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2505,6 +2310,16 @@
 		)
 		(uuid "027a3869-6b49-4667-bacd-62a4886ef9ab")
 	)
+	(label "GPIO1"
+		(at 240.03 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06e08c6c-bdd4-472d-97d1-cfd23196dcc1")
+	)
 	(label "CAN1_N"
 		(at 240.03 101.6 180)
 		(effects
@@ -2535,6 +2350,16 @@
 		)
 		(uuid "2c87ac1d-4b2a-4060-80f1-149f469e5ab8")
 	)
+	(label "GPIO0"
+		(at 171.45 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3717f0b5-05c2-4ab3-975d-6c53d730fb22")
+	)
 	(label "CAN1_P"
 		(at 252.73 101.6 0)
 		(effects
@@ -2546,7 +2371,7 @@
 		(uuid "3b71ecc6-4f6a-4b2f-b29f-1aa3837dc7b1")
 	)
 	(label "ESTOP"
-		(at 171.45 81.28 180)
+		(at 171.45 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2575,6 +2400,16 @@
 		)
 		(uuid "93a5034c-b726-4547-b90c-6f37b4be0b1e")
 	)
+	(label "GPIO1"
+		(at 171.45 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b826fb1d-9dbe-4da2-a445-a6d55fb49d7a")
+	)
 	(label "CAN1_N"
 		(at 223.52 93.98 180)
 		(effects
@@ -2584,6 +2419,16 @@
 			(justify right bottom)
 		)
 		(uuid "cac36ae4-1b5b-4c8d-81f1-110f0850cd39")
+	)
+	(label "GPIO0"
+		(at 252.73 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7e074f5-0d69-47a1-ae14-8cff32075906")
 	)
 	(label "CAN2_N"
 		(at 240.03 104.14 180)
@@ -2675,130 +2520,8 @@
 		)
 	)
 	(symbol
-		(lib_id "0_chenry_lib:GND_CHASIS")
-		(at 129.54 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d34ad6a-4014-490d-a5a8-f024c5475d0e")
-		(property "Reference" "#PWR77"
-			(at 129.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_CHASIS"
-			(at 129.54 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 129.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC_PN" ""
-			(at 129.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN1" ""
-			(at 129.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN2" ""
-			(at 129.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN3" ""
-			(at 129.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bbc2974f-bb8e-47d4-93e3-b025488608fd")
-		)
-		(instances
-			(project "Rover VCU"
-				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_chenry_lib:VDD_3V3")
-		(at 121.92 74.93 0)
+		(at 121.92 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -2809,7 +2532,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ee8a7a3-c4e1-496f-ba02-ea2bd1252bf7")
 		(property "Reference" "#PWR71"
-			(at 121.92 78.74 0)
+			(at 121.92 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +2543,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 121.92 69.85 0)
+			(at 121.92 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2830,7 +2553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 74.93 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2841,7 +2564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 74.93 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2852,7 +2575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 121.92 74.93 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2863,7 +2586,7 @@
 			)
 		)
 		(property "JLC_PN" ""
-			(at 121.92 74.93 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2874,7 +2597,7 @@
 			)
 		)
 		(property "MFR_PN1" ""
-			(at 121.92 74.93 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +2608,7 @@
 			)
 		)
 		(property "MFR_PN2" ""
-			(at 121.92 74.93 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,7 +2619,7 @@
 			)
 		)
 		(property "MFR_PN3" ""
-			(at 121.92 74.93 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2991,6 +2714,85 @@
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
 					(reference "#PWR63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 58.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26023fba-42d6-4eb9-88d7-23d9c2e68d18")
+		(property "Reference" "#PWR077"
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c3b12ba-b070-4b79-b388-03bdbf16c6e2")
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3198,6 +3000,126 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 17.78 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "337698a6-a352-4a5c-a5f5-bf16970f2efc")
+		(property "Reference" "H6"
+			(at 20.32 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 20.32 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 17.78 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 17.78 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 17.78 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 17.78 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 17.78 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" ""
+			(at 17.78 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_chenry_lib:VDD_3V3")
 		(at 261.62 99.06 270)
 		(unit 1)
@@ -3315,128 +3237,6 @@
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
 					(reference "#PWR95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_chenry_lib:GND_CHASIS")
-		(at 77.47 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "412c4aa8-2032-44cb-be96-8c73e68cb1c6")
-		(property "Reference" "#PWR91"
-			(at 77.47 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_CHASIS"
-			(at 77.47 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 77.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC_PN" ""
-			(at 77.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN1" ""
-			(at 77.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN2" ""
-			(at 77.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_PN3" ""
-			(at 77.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b3a30a7-ec80-44ee-97a1-6ea0fdc16a8e")
-		)
-		(instances
-			(project "Rover VCU"
-				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR91")
 					(unit 1)
 				)
 			)
@@ -3688,6 +3488,126 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 17.78 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "714a5df3-2f95-4537-977a-1e2ad8700e76")
+		(property "Reference" "H5"
+			(at 20.32 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 20.32 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 17.78 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 17.78 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 17.78 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 17.78 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 17.78 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" ""
+			(at 17.78 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Rover VCU"
+				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_chenry_lib:VBUS_5V")
 		(at 127 49.53 90)
 		(unit 1)
@@ -3919,7 +3839,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 21.59 181.61 0)
+		(at 17.78 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3930,7 +3850,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c7466ba-74e0-4df0-a2b6-809f697699ef")
 		(property "Reference" "H2"
-			(at 24.13 180.3399 0)
+			(at 20.32 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3941,7 +3861,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 24.13 182.8799 0)
+			(at 20.32 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3951,8 +3871,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 21.59 181.61 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 17.78 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,7 +3883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 181.61 0)
+			(at 17.78 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,7 +3894,51 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 21.59 181.61 0)
+			(at 17.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 17.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 17.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 17.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" ""
+			(at 17.78 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,7 +3959,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 57.15 0)
+		(at 129.54 57.15 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4006,7 +3971,7 @@
 		(fields_autoplaced yes)
 		(uuid "9784b341-9c4f-4122-9a81-b06344c038c6")
 		(property "Reference" "#PWR69"
-			(at 166.37 63.5 0)
+			(at 129.54 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4017,7 +3982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 62.23 0)
+			(at 129.54 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4027,7 +3992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 57.15 0)
+			(at 129.54 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4038,7 +4003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 57.15 0)
+			(at 129.54 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,7 +4014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 57.15 0)
+			(at 129.54 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4072,158 +4037,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 21.59 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "9af2fd45-7e4b-4345-a96d-539532dba41d")
-		(property "Reference" "H3"
-			(at 24.13 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 24.13 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 21.59 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Rover VCU"
-				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 21.59 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "9e2bfb67-053f-46b9-b992-488e308401a8")
-		(property "Reference" "H1"
-			(at 24.13 191.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 24.13 194.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 21.59 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Rover VCU"
-				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 240.03 93.98 270)
 		(mirror x)
@@ -4236,7 +4049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f76f3a7-e4b1-4a0b-a089-7c2e7cdc5e62")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR103"
 			(at 233.68 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4297,7 +4110,7 @@
 		(instances
 			(project "Rover VCU"
 				(path "/33c96268-4ca2-4a73-94d6-a3ed4f27d429"
-					(reference "#PWR0103")
+					(reference "#PWR103")
 					(unit 1)
 				)
 			)
@@ -4384,7 +4197,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 21.59 158.75 0)
+		(at 17.78 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4395,7 +4208,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad92bc0c-9151-4d6c-a6c1-036b1d90d4b7")
 		(property "Reference" "H4"
-			(at 24.13 157.4799 0)
+			(at 20.32 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4406,7 +4219,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 24.13 160.0199 0)
+			(at 20.32 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4416,8 +4229,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 21.59 158.75 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 17.78 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4428,7 +4241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 158.75 0)
+			(at 17.78 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4439,7 +4252,51 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 21.59 158.75 0)
+			(at 17.78 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN1" ""
+			(at 17.78 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN2" ""
+			(at 17.78 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN3" ""
+			(at 17.78 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_PN" ""
+			(at 17.78 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +4317,7 @@
 	)
 	(symbol
 		(lib_id "0_chenry_lib:VBUS_5V")
-		(at 132.08 74.93 0)
+		(at 132.08 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4471,7 +4328,7 @@
 		(fields_autoplaced yes)
 		(uuid "ada8741f-55d1-493a-a501-6100face8689")
 		(property "Reference" "#PWR67"
-			(at 132.08 78.74 0)
+			(at 132.08 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4482,7 +4339,7 @@
 			)
 		)
 		(property "Value" "VBUS_5V"
-			(at 132.08 69.85 0)
+			(at 132.08 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4492,7 +4349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 74.93 0)
+			(at 132.08 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,7 +4360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 74.93 0)
+			(at 132.08 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4514,7 +4371,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 132.08 74.93 0)
+			(at 132.08 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4525,7 +4382,7 @@
 			)
 		)
 		(property "JLC_PN" ""
-			(at 132.08 74.93 0)
+			(at 132.08 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4536,7 +4393,7 @@
 			)
 		)
 		(property "MFR_PN1" ""
-			(at 132.08 74.93 0)
+			(at 132.08 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4547,7 +4404,7 @@
 			)
 		)
 		(property "MFR_PN2" ""
-			(at 132.08 74.93 0)
+			(at 132.08 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,7 +4415,7 @@
 			)
 		)
 		(property "MFR_PN3" ""
-			(at 132.08 74.93 0)
+			(at 132.08 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5151,24 +5008,14 @@
 				(justify left top)
 			)
 		)
-		(pin "GND_CHASIS" input
-			(at 134.62 53.34 180)
-			(uuid "01d01e5a-beaf-4e04-8819-0cb2b55be63d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GND" input
-			(at 161.29 53.34 0)
+			(at 134.62 53.34 180)
 			(uuid "cc3ac6de-5378-4a62-80c8-42e923f7a4bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VBUS_5V" input
@@ -5482,8 +5329,8 @@
 		)
 	)
 	(sheet
-		(at 134.62 78.74)
-		(size 26.67 48.26)
+		(at 134.62 74.93)
+		(size 26.67 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5497,7 +5344,7 @@
 		)
 		(uuid "b6f6dc45-0fc2-47e8-a402-80b9d7932d21")
 		(property "Sheetname" "MCU"
-			(at 134.62 78.0284 0)
+			(at 134.366 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5508,7 +5355,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32G0B1.kicad_sch"
-			(at 134.62 122.5046 0)
+			(at 134.62 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5689,8 +5536,28 @@
 			)
 		)
 		(pin "ESTOP" input
-			(at 161.29 81.28 0)
+			(at 161.29 77.47 0)
 			(uuid "cb02719f-fcae-400e-9889-41e2a182d93b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO0" input
+			(at 161.29 80.01 0)
+			(uuid "f242c547-23b4-4ea0-b801-cff03c8da087")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1" input
+			(at 161.29 82.55 0)
+			(uuid "15a9ebe8-dbd3-469b-9696-ce825d0a6f81")
 			(effects
 				(font
 					(size 1.27 1.27)
