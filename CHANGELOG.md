@@ -1,3 +1,9 @@
+## 0.3.1 (2026-08-02)
+
+### Fix
+
+- removed 3v3 on 1.2v lan core voltage
+
 ## 0.3.0 (2026-07-20)
 
 ### Feat
