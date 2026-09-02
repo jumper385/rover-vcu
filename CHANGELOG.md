@@ -1,3 +1,9 @@
+## 0.3.2 (2026-09-02)
+
+### Fix
+
+- replace PN for switcher due to chip blowup
+
 ## 0.3.1 (2026-08-02)
 
 ### Fix
